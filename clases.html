@@ -8,6 +8,7 @@
  
     <style>
         :root{
+            /* las variables antes eran posible solo con LESS, SASS P SCSS */
             --oscuro:blue; 
             --claro:lightgray;
             --acento:green;
@@ -16,12 +17,12 @@
         p{
             /* Las etiquetas pueden ser modificadas también */
             color: rgb(32, 42, 102);
-            font-size: var(--normal); /*nombre de la variable siempre con dos guiones*/
+            font-size:var(--normal); /*nombre de la variable siempre con dos guiones*/
             
         }
         h1{
-            font-size:cal(2*var(--normal)); /* dos por la variable normal*/
-            
+           /* font-size:cal(2*var(--normal)); /* dos por la variable normal*/
+             font-size:4wv;
         }
         header{
 
