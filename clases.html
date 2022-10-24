@@ -10,14 +10,18 @@
         :root{
             --oscuro:blue; 
             --claro:lightgray;
-            --prioritario:green;
-            --peque:8px;
+            --acento:green;
+            --normal:16px;
             --grande:24px;
 
         }
         p{
             /* Las etiquetas pueden ser modificadas también */
             color: rgb(32, 42, 102);
+            
+        }
+        h1{
+            font-size:var(--normal);
             
         }
         header{
@@ -34,7 +38,7 @@
         }
         .destacada {
             /* las clases son grupos de elementos */
-            color:green;
+            color:var(--acento); /*en vez de color:blue;*/
 
         }
         #curso{
