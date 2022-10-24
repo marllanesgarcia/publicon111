@@ -35,6 +35,6 @@
         }
         #curso{
             /* Los id seleccionan un unico elemento */
-            font-variant:italic;
+            font-style: italic;
         }
  
