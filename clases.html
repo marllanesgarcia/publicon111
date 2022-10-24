@@ -8,18 +8,30 @@
  
     <style>
         p{
-            color: aqua;
+            /* Las etiquetas pueden ser modificadas también */
+            color: rgb(32, 42, 102);
             
         }
         header{
+            
             background-color:antiquewhite ;
 
         }
         main{
+
             border-style: solid;
             border-color: blueviolet;
             border-width: 1px;
             
+        }
+        .destacada {
+            /* las clases son grupos de elementos */
+            color:green;
+
+        }
+        #curso{
+            /* Los id seleccionan un unico elemento */
+            font-variant: italic;
         }
     </style>
 
@@ -28,10 +40,10 @@
    
     <header>
         <h1>Titulo principal: CSS - uso de clases y variables.</h1>
-        <p>Primer año - CENEC Málaga</p>
+        <p id="curso">Primer año - CENEC Málaga</p>
     </header>
     <main>
-         <h2>
+         <h2 class="destacada">
         Titulo secundario
         </h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore neque minima ratione ab doloremque sapiente dolorem eaque placeat necessitatibus
@@ -39,7 +51,7 @@
     </main>
     <section>
             <h2>Otro titulo secundario</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam a aliquid officia alias velit 
+            <p class="destacada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam a aliquid officia alias velit 
                 incidunt fuga asperiores tempora architecto placeat quasi temporibus doloremque, atque dicta harum eaque hic nisi!</p>
     </section>
 </body>
