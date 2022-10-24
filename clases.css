@@ -1,0 +1,40 @@
+
+        :root{
+            /* las variables antes eran posible solo con LESS, SASS P SCSS */
+            --oscuro:blue; 
+            --claro:lightgray;
+            --acento:green;
+            --normal:24px;
+        }
+        p{
+            /* Las etiquetas pueden ser modificadas también */
+            color: rgb(32, 42, 102);
+            font-size:var(--normal); /*nombre de la variable siempre con dos guiones*/
+            
+        }
+        h1{
+           /* font-size:cal(2*var(--normal)); /* dos por la variable normal*/
+             font-size:4wv;
+        }
+        header{
+
+            background-color:antiquewhite ;
+
+        }
+        main{
+
+            border-style: solid;
+            border-color: blueviolet;
+            border-width: 1px;
+            
+        }
+        .destacada {
+            /* las clases son grupos de elementos */
+            color:var(--acento); /*en vez de color:blue;*/
+
+        }
+        #curso{
+            /* Los id seleccionan un unico elemento */
+            font-variant:italic;
+        }
+ 
