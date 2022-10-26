@@ -1,0 +1,97 @@
+#LasCajas{
+
+    display: block;
+    width: 10%;
+    height: 60px;
+    background-color: rgba(87, 43, 128, 0.568);
+    border-style: dashed;
+    margin-bottom: 15px;
+}
+
+#Nombre {
+    display: block;
+    width: 10%;
+    height: 60px;
+    background-color: rgba(87, 43, 128, 0.842);
+    border-style: dashed;
+    margin-bottom: 15px;
+}
+
+#numero1{
+    display: block;
+    width: 20%;
+    height: 70px;
+    background-color: rgb(31, 53, 99);
+    border-style: double;
+    margin-bottom: 23px;
+}
+
+#numero2{
+    display: block;
+    width: 3%;
+    height: 20px;
+    background-color: rgb(99, 67, 31);
+    border-style: double;
+    margin-bottom: 23px;
+}
+
+#numero3{
+    display: block;
+    width: 30%;
+    height: 140px;
+    background-color: rgb(197, 189, 68);
+    border-style: double;
+}
+
+#numero4{
+    display: inline-block;
+    width: 3%;
+    height: 40px;
+    background-color: rgb(197, 68, 68);
+    border-style: solid;
+    margin-bottom: 30px;
+}
+
+#numer05{
+    display: inline-block;
+    width: 15%;
+    height: 90px;
+    background-color: rgb(68, 197, 176);
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+#numero6{
+    display: inline-block;
+    width: 20%;
+    height: 180px;
+    background-color: rgb(197, 167, 68);
+    border-style: solid;
+}
+
+#numero7{
+    display: inline-grid;
+    align-content: center;
+    padding: 20px;
+    width: 15%;
+    height: 150px;
+    background-color: rgb(58, 14, 158);
+    border-style: solid;
+}
+
+#numero8{
+    display: inline-grid;
+    align-content: center;
+    padding: 20px;
+    width: 105%;
+    height: 105px;
+    background-color: rgb(158, 14, 139);
+    border-style: solid;
+}
+
+#numero9{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(14, 117, 158);
+    border-style: solid;
+}
