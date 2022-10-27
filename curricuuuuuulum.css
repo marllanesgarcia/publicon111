@@ -1,9 +1,0 @@
-.container{
-    display: flex;
-    background-color: rgba(113, 43, 226, 0.459);
-    font-size: 30%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 30%;
-    height: 13%;
-}
