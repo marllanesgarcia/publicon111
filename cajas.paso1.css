@@ -2,30 +2,42 @@
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-color: black;
 
 }
 
 .cajas{
- align-items: baseline;
+    align-items: baseline;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    weight: 80vh;
+    height: 10vh;
 }
 
 #Rojo{
-    Color: red;
+    background-color: red;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 #Verde{
-    color: rgb(240, 255, 240);
+    background-color: rgb(11, 138, 11);
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 #Azul{
-    color: blue;
+    background-color: blue;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+h1{
+    border-color: black;
+    border-style: double;
+    text-align: center;
 }
