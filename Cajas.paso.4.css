@@ -1,0 +1,57 @@
+#contenedor{
+    display:flex;
+    gap: 60px 80px;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-color: black;
+
+
+}
+
+.cajas{
+    align-items: baseline;
+    flex-direction: column;
+    padding: 40px;
+     width: 100px;
+    height: 75px;
+    text-align: center;
+}
+
+h1{
+    border-color: black;
+    border-style: double;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#Azul{
+    background-color: blue;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#Rojo{
+    background-color: red;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#Naranja{
+    background-color: orange;
+    flex-direction: row;
+}
+
+#Morao{
+    background-color: purple;
+    flex-direction: row;
+    color:white;
+}
+
+#Verde{
+    background-color: green;
+    flex-direction: row;
+    padding: 40px;
+}
