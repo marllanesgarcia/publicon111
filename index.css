@@ -1,5 +1,6 @@
 .body{
     background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1304/2013_cherry_blossom_season_in_Japan_photography_Wallpaper_12_1366x768.jpg)  
+    
 }
 
 h1{
@@ -7,7 +8,22 @@ h1{
     height:10%;
     background-color:rgba(255, 255, 255, 0.692);
     border-style:double;
+    justify-content: center;
+    font-style: italic;
     border-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+            
+}
+
+h3{
+    width:70%;
+    height:10%;
+    background-color:rgba(255, 255, 255, 0.692);
+    border-style:double;
+    justify-content: center;
+    font-style: italic;
+    border-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
             
 }
 
@@ -19,22 +35,35 @@ h1{
     border-image-slice : 100%;
 }
 
-#caja{
+#aside{
+    height: 420px;
+    width: 340px;
+    padding: 0;  
+    margin: 0;
+    float: left;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+#article{
+    padding: 0;
+    margin: 0;
+    height: 420px; 
+    width: 600px;
+    float: right;
+    background-color: rgba(236, 216, 191, 0.418);
+    justify-content: flex-end;
+}
+
+.footer{
+    justify-content: flex-end;
+    height: 60px;
+}
+/* #caja{
     align-items: center;
     padding: 10px; 
     float: left; 
     width: 25%; 
     text-align: justify;
-    background-color: rgba(137, 43, 226, 0.432); 
     margin-left: 40px;
-}
-
-#otracaja{
-    padding: 10px; 
-    float: right; 
-    width: 67%; 
-    text-align: justify;
-    background-color: rgba(236, 216, 191, 0.418);
-    margin-right:auto;
-    align-self: auto;
-}
+    background-color: rgba(255, 255, 255, 0.541);
+} */
