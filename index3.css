@@ -1,0 +1,66 @@
+body{
+   /* background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1304/2013_cherry_blossom_season_in_Japan_photography_Wallpaper_12_1366x768.jpg);
+   */ 
+   flex-direction: center;
+    padding: 20px;
+    display:flex;
+    gap: 80px 90px;
+    justify-content: center;
+}
+
+head{
+    align-items: baseline;
+    flex-direction: column;
+    padding: 40px;
+     width: 100px;
+    height: 75px;
+    text-align: center;
+
+}
+
+h1{
+    border-color: rgba(0, 0, 0, 0.418);
+    border-style: dashed;
+    padding: 20px;
+
+}
+
+.cajas{
+    align-items: baseline;
+    flex-direction: column;
+    padding: 40px;
+     width: 100px;
+    height: 75px;
+    text-align: center;
+}
+
+#foto{
+    width: 20%; 
+    height: 10%;
+    background-size: cover;
+    border-radius: 40%;
+    border-image-slice : 100%
+}
+
+.div{
+    align-items: stretch;
+    align-self: flex-start;
+    justify-content: left;
+    border-style: dashed;
+    border-color:rgba(0, 0, 0, 0.411);
+    background-color: rgba(137, 43, 226, 0.253);
+    width: 120%;
+    height: 80%;
+
+
+}
+
+#div2{
+    align-items: initial;
+    align-self:center;
+    justify-content: center;
+    border-style: dashed;
+    border-color:rgba(0, 0, 0, 0.411);
+    background-color: rgba(137, 43, 226, 0.411);
+    padding: 0%;
+}
