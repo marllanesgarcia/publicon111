@@ -10,7 +10,7 @@
     margin: 0%;
     padding: 0%;
 }
-h1{
+#h1{
     
     width: 420px;
     height: 30px;
@@ -26,21 +26,6 @@ h1{
             
 }
 
-.h1{
-    
-    width: 420px;
-    height: 30px;
-    padding: 10px; 
-    margin-left: 20px;
-    background-color: rgba(255, 255, 255, 0.692);
-    border-style:double;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-style: italic;
-    border-color: rgba(0, 0, 0, 0.555);
-    text-align: center;
-}
 
 h3{
     width:70%;
