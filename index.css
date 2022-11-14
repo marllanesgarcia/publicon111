@@ -10,7 +10,7 @@
     padding: 0%;
 }
 h1{
-    text-align: center;
+    
     width: 420px;
     height: 30px;
     padding: 10px; 
@@ -19,13 +19,14 @@ h1{
     border-style:double;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-style: italic;
     border-color: rgba(0, 0, 0, 0.555);
             
 }
 
 .h1{
-    text-align: center;
+    
     width: 420px;
     height: 30px;
     padding: 10px; 
@@ -34,6 +35,7 @@ h1{
     border-style:double;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-style: italic;
     border-color: rgba(0, 0, 0, 0.555);
     text-align: center;
