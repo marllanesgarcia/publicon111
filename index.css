@@ -1,5 +1,6 @@
 .body{
-    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1304/2013_cherry_blossom_season_in_Japan_photography_Wallpaper_12_1366x768.jpg)  
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1304/2013_cherry_blossom_season_in_Japan_photography_Wallpaper_12_1366x768.jpg) 
+      
 }
 
 .div{
@@ -73,6 +74,7 @@ h3{
 #article{
     padding: 20px;  
     margin: 15px;
+    margin-left: 0;
     height: auto; 
     width: auto;
     float: right;
