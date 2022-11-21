@@ -1,0 +1,29 @@
+ li{
+    display: inline-block;
+    width: 5%;
+    height: 2em;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 5px;
+    border-width: 0px, 2px, 2px, 0px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: xx-large;
+    box-shadow: 2px 2px rgb(62, 18, 218);
+    color: white;
+    
+}
+
+nav{
+    background-color: rgba(211, 43, 226, 0.253);
+}
+#seleccionado{
+    box-shadow: 2px 2px rgb(62, 18, 218) inset;
+}
+
+li#seleccionado{
+
+    background-color: rgba(137, 43, 226, 0.534);
+}
