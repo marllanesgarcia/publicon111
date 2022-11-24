@@ -1,5 +1,7 @@
  body {
      background-color: rgb(240, 224, 255);
+    padding-left: 2vw;
+    padding-right: 2vw;
  }
 
  li {
@@ -42,6 +44,67 @@
      }
 
  }
+
+ img {
+
+    width: 100%;
+    height: auto;
+
+ }
+ p{
+    padding-block-start: 5%;
+ }
+
+ article{
+
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center ;
+
+ }
+
+ #caja{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    min-width: 30vw;
+
+ }
+
+ div {
+    column-count: 3;
+ }
+
+ #pa1 {
+    color: rgb(10, 129, 226);
+ }
+ 
+ #pa3 {
+    color:rgb(228, 176, 109)
+ }
+ 
+ main{
+    position: relative;
+    top:0%;
+    left: 0%s;
+    width: 30%;
+ }
+ #psup{
+    padding-left: 5px;
+    text-align: justify;
+    padding-right: 5px;
+
+ }
+ #fotosuperior {
+
+        width: 25%;
+        float: right;
+    
+ }
+
 
  @media screen and (orientation:portrait) {
 
