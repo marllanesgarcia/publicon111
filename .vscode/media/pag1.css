@@ -59,6 +59,7 @@
 
 
     display: flex;
+    float: none; 
     flex-direction: row-reverse;
     align-items: center ;
 
@@ -100,10 +101,13 @@
  }
  #fotosuperior {
 
-        width: 25%;
+        width: 30%;
         float: right;
+        padding: 10px;
     
  }
+
+ 
 
 
  @media screen and (orientation:portrait) {
