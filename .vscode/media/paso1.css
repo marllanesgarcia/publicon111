@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(128, 101, 125);
+}
+
+p {
+    line-height: 15px;
+}
+
+div:hover {
+    /* este es para cada vez que se pone el pulsor encima */
+    line-height: 40px;
+    background-color: rgba(43, 159, 226, 0.425);
+    font-size: 120%;
+    /* este es para el tamaño de letra cada vez que se pone el pulsor encima */
+}
+
+
+#oferta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    display: none;
+}
+
+#oferta p {
+    display: table-cell;
+    color: blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#ver {
+    display: block;
+}
+
+#ocultar {
+    display: none;
+}
+
+p:hover {
+    /* este es para cada vez que se pone el pulsor encima */
+    /* hover es para seleccionar*/
+    color: rgb(115, 13, 173);
+    background-color: rgb(32, 184, 189);
+    ;
+}
+
+p:first-letter {
+    /* esto es para que la primera letra de cada estrofa se destaque y sea más grande.
+    tambien se puede usar con el div para que se señale el div entero*/
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.699);
+
+}
+
+h1:first-letter {
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1:hover {
+    /* este es para cada vez que se pone el pulsor encima */
+    /* hover es para seleccionar*/
+    color: rgba(79, 9, 119, 0.966);
+    background-color: rgb(32, 184, 189);
+}
+
+body>p:nth-child(2) {
+    /* la > es para que se señale que es el que va directamente despues del body*/
+    visibility: hidden;
+    /* esto es para que un parrafo este oculto con un pseudocódigo*/
+}
+
+body>p:target {
+    visibility: visible;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
